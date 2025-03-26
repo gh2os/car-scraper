@@ -16,13 +16,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc
 
 # Copy the requirements.txt file into the container
-COPY requirements.txt /home/vscode/requirements.txt
+COPY requirements.txt .
 
 # Switch to the vscode user
 USER vscode
 
 # Install Python dependencies
-RUN pip install -r /home/vscode/requirements.txt
+RUN pip install -r requirements.txt
 
 # Install Playwright and its browser dependencies
 RUN playwright install
