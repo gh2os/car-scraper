@@ -41,9 +41,13 @@ async def scrape_autotrader():
                 params["make"], params["model"], params["year_from"], params["year_to"])
             print(f"Visiting: {url}")
             await page.goto(url)
-            await page.wait_for_selector("div.result-item", timeout=10000)
+            try:
+                await page.wait_for_selector("div.listing", timeout=10000)
+            except TimeoutError:
+                print("Timeout: No listings found on the page.")
+                continue
 
-            result_items = await page.query_selector_all("div.result-item")
+            result_items = await page.query_selector_all("div.listing")
 
             for listing in result_items:
                 title_el = await listing.query_selector("h2.title")
