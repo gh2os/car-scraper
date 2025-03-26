@@ -1,4 +1,5 @@
 from playwright.async_api import async_playwright
+from database import insert_or_update_listing
 
 import asyncio
 
