@@ -1,4 +1,5 @@
 import requests
+from database import insert_or_update_listing
 from bs4 import BeautifulSoup
 
 def scrape_autotrader():
@@ -24,12 +25,18 @@ def scrape_autotrader():
             location = listing.find('div', class_='location').get_text(strip=True)
             link = listing.find('a', class_='result-title')['href']
             
-            listings.append({
+            listing_data = {
                 "title": title,
                 "price": int(price) if price.isdigit() else None,
                 "mileage": int(mileage) if mileage.isdigit() else None,
                 "location": location,
                 "link": f"https://www.autotrader.ca{link}"
+            }
+            insert_or_update_listing({
+                "source": "AutoTrader",
+                "external_id": link.split('/')[-1],  # Assuming the last part of the link is a unique ID
+                **listing_data
             })
+            listings.append(listing_data)
     
     return listings
