@@ -8,7 +8,6 @@ def scrape_autotrader():
     options = uc.ChromeOptions()
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-blink-features=AutomationControlled")
 
     driver = uc.Chrome(headless=False, options=options)
     driver.set_window_size(1200, 800)
