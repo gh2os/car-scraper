@@ -9,7 +9,7 @@ def scrape_autotrader():
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
 
-    driver = uc.Chrome(headless=False, options=options)
+    driver = uc.Chrome(options=options)
     driver.set_window_size(1200, 800)
 
     url = "https://www.autotrader.ca/cars/mazda/cx-5/bc/vancouver/?rcp=15&rcs=0&yRng=2013%2C2017"
