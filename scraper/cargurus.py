@@ -1,4 +1,5 @@
 from playwright.sync_api import sync_playwright
+from database import insert_or_update_listing
 
 def scrape_cargurus():
     print("Scraping CarGurus...")
