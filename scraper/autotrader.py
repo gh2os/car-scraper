@@ -1,6 +1,5 @@
 from playwright.async_api import async_playwright
 
-def scrape_autotrader():
 import asyncio
 
 async def scrape_autotrader():
