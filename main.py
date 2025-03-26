@@ -26,10 +26,5 @@ def main():
     setup_database()
     run_scrapers()
 
-def main():
-    setup_database()
-    scrape_cargurus()
-    scrape_facebook_marketplace()
-
 if __name__ == "__main__":
     main()
