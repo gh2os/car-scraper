@@ -16,6 +16,10 @@ def scrape_autotrader():
     for params in search_params:
         url = f"{base_url}{params['make']}/{params['model']}/{params['year_from']}-{params['year_to']}/"
         response = requests.get(url)
+        print(f"URL: {response.url}")
+        print(f"Status Code: {response.status_code}")
+        print(f"Response Text (first 1000 chars): {response.text[:1000]}")
+        
         soup = BeautifulSoup(response.content, 'html.parser')
         
         for listing in soup.find_all('div', class_='result-item'):
