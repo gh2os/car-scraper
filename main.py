@@ -1,9 +1,10 @@
 from database import setup_database, insert_or_update_listing
+import asyncio
 from scraper.autotrader import scrape_autotrader
 
 
 def run_scrapers():
-    listings = scrape_autotrader()
+    listings = asyncio.run(scrape_autotrader())
     new_count = 0
     updated_count = 0
 
