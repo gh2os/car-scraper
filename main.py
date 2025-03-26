@@ -1,27 +1,50 @@
-from database import setup_database, insert_or_update_listing
-import asyncio
-from scraper.autotrader import scrape_autotrader
+import undetected_chromedriver as uc
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+import time
 
 
-def run_scrapers():
-    listings = asyncio.run(scrape_autotrader())
-    new_count = 0
-    updated_count = 0
+def scrape_autotrader():
+    options = uc.ChromeOptions()
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+
+    driver = uc.Chrome(headless=False, options=options)
+    driver.set_window_size(1200, 800)
+
+    url = "https://www.autotrader.ca/cars/mazda/cx-5/bc/vancouver/?rcp=15&rcs=0&yRng=2013%2C2017"
+    driver.get(url)
+
+    time.sleep(10)  # Let page load fully
+
+    listings = driver.find_elements(By.CSS_SELECTOR, "div.result-item")
 
     for listing in listings:
-        result = insert_or_update_listing(listing)
-        if result == "new":
-            new_count += 1
-        elif result == "updated":
-            updated_count += 1
+        try:
+            title = listing.find_element(By.CSS_SELECTOR, "h2.title").text
+            price = listing.find_element(
+                By.CSS_SELECTOR, "span.price-amount").text
+            mileage = listing.find_element(
+                By.CSS_SELECTOR, "div.kilometers").text
+            location = listing.find_element(
+                By.CSS_SELECTOR, "div.location").text
+            link = listing.find_element(
+                By.CSS_SELECTOR, "a.result-title").get_attribute("href")
 
-    print(f"AutoTrader: {new_count} new, {updated_count} updated listings")
+            print({
+                "title": title,
+                "price": price,
+                "mileage": mileage,
+                "location": location,
+                "link": f"https://www.autotrader.ca{link}"
+            })
 
+        except Exception as e:
+            print("Error parsing listing:", e)
 
-def main():
-    setup_database()
-    run_scrapers()
+    driver.quit()
 
 
 if __name__ == "__main__":
-    main()
+    scrape_autotrader()
