@@ -1,4 +1,4 @@
-from database import setup_database
+from database import setup_database, insert_or_update_listing
 from scraper.autotrader import scrape_autotrader
 from scraper.cargurus import scrape_cargurus
 from scraper.facebook_marketplace import scrape_facebook_marketplace
