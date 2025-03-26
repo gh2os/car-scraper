@@ -1,0 +1,33 @@
+{
+    "name": "Terraform",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "terraform",
+    "features": {
+        "ghcr.io/devcontainers/features/aws-cli:1": {},
+        "ghcr.io/devcontainers/features/python:1": {},
+        "ghcr.io/gvatsal60/dev-container-features/pre-commit:1": {},
+        "ghcr.io/devcontainers-extra/features/isort:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            // Set *default* container specific settings.json values on container create.
+            "settings": {
+                "editor.formatOnPaste": false, // required
+                "editor.formatOnType": false, // required
+                "editor.formatOnSave": true, // optional
+                "editor.formatOnSaveMode": "file", // required to format on save
+                "files.autoSave": "off" // optional
+            },
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "ms-python.python",
+                "redhat.vscode-yaml",
+                "AmazonWebServices.aws-toolkit-vscode",
+                "eamodio.gitlens"
+            ]
+        }
+    },
+    "remoteUser": "vscode",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+}

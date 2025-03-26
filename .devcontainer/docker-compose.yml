@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  terraform:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+
+    volumes:
+      - ../..:/workspaces:cached
+      - ./direnv/config.toml:/home/vscode/.config/direnv/config.toml
+      - ~/.ssh:/home/vscode/.ssh:cached
+
+    environment:
+      SSH_AUTH_SOCK: /ssh-agent
+
+    command: sleep infinity
