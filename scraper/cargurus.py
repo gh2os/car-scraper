@@ -1,5 +1,7 @@
 from playwright.sync_api import sync_playwright
 from database import insert_or_update_listing
+import requests
+
 
 def scrape_cargurus():
     print("Scraping CarGurus...")
@@ -21,8 +23,10 @@ def scrape_cargurus():
             # Extract listings
             for listing in page.query_selector_all('.listing-row'):
                 title = listing.query_selector('.title').inner_text()
-                price = listing.query_selector('.price').inner_text().replace('$', '').replace(',', '')
-                mileage = listing.query_selector('.mileage').inner_text().replace(' km', '').replace(',', '')
+                price = listing.query_selector(
+                    '.price').inner_text().replace('$', '').replace(',', '')
+                mileage = listing.query_selector(
+                    '.mileage').inner_text().replace(' km', '').replace(',', '')
                 location = listing.query_selector('.location').inner_text()
                 link = listing.query_selector('.title a').get_attribute('href')
 

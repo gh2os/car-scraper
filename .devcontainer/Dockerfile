@@ -1,7 +1,7 @@
-# Use any Debian/Ubuntu-based image
-FROM mcr.microsoft.com/devcontainers/base:ubuntu
+# Use official Debian-based Python image
+FROM mcr.microsoft.com/devcontainers/python:1-3.12-bullseye
 
-# Install Terraform and dependencies
+# Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     unzip \
@@ -12,17 +12,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Set up direnv hook for bash (default shell inside container)
+# Set up direnv hook for bash
 RUN echo 'eval "$(direnv hook bash)"' >> /etc/bash.bashrc
 
-# Copy the requirements.txt file into the container
-COPY requirements.txt .
+# Copy and install Python dependencies
+COPY requirements.txt /tmp/
 
-# Switch to the vscode user
 USER vscode
 
-# Install Python dependencies
-RUN pip install -r requirements.txt
-
-# Install Playwright and its browser dependencies
-RUN playwright install
+RUN pip install --no-cache-dir --requirement /tmp/requirements.txt

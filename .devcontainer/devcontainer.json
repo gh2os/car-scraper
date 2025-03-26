@@ -1,12 +1,9 @@
 {
-    "name": "Terraform",
+    "name": "devcon",
     "dockerComposeFile": "docker-compose.yml",
-    "service": "terraform",
+    "service": "devcon",
     "features": {
-        "ghcr.io/devcontainers/features/aws-cli:1": {},
-        "ghcr.io/devcontainers/features/python:1": {},
-        "ghcr.io/gvatsal60/dev-container-features/pre-commit:1": {},
-        "ghcr.io/devcontainers-extra/features/isort:2": {}
+        "ghcr.io/gvatsal60/dev-container-features/pre-commit:1": {}
     },
     "customizations": {
         "vscode": {
