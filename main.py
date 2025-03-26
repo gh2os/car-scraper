@@ -1,29 +1,11 @@
-from database import setup_database, insert_or_update_listing
 from scraper.autotrader import scrape_autotrader
 
 
-def run_scrapers():
-    sources = {
-        "AutoTrader": scrape_autotrader
-    }
-
-    summary = {source: {"new": 0, "updated": 0} for source in sources}
-
-    for source, scraper in sources.items():
-        listings = scraper()
-        for listing in listings:
-            # Assuming insert_or_update_listing returns a string "new" or "updated"
-            result = insert_or_update_listing(listing)
-            summary[source][result] += 1
-
-    for source, counts in summary.items():
-        print(
-            f"{source}: {counts['new']} new, {counts['updated']} updated listings")
-
-
 def main():
-    setup_database()
-    run_scrapers()
+    listings = scrape_autotrader()
+    print(f"Found {len(listings)} listings")
+    for listing in listings[:3]:  # print only first 3 for brevity
+        print(listing)
 
 
 if __name__ == "__main__":
