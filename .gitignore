@@ -1,2 +1,7 @@
-
 .aider*
+__pycache__/
+*.pyc
+*.log
+*.zip
+data/listings.db
+output/autotrader_*.json

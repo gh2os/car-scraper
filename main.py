@@ -1,49 +1,47 @@
-import undetected_chromedriver as uc
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-import time
+import logging
+from scraper.autotrader import scrape_autotrader_raw
+from cleaning.autotrader_cleaner import clean_autotrader_data
+from db.load_clean_to_db import load_clean_data_to_db
+from db.delisted import detect_and_flag_delisted_listings
+from export.daily_snapshot import daily_snapshot
 
 
-def scrape_autotrader():
-    options = uc.ChromeOptions()
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s",
+    handlers=[
+        logging.FileHandler("output/full_run.log"),
+        logging.StreamHandler()
+    ],
+    force=True
+)
 
-    driver = uc.Chrome(options=options)
-    driver.set_window_size(1200, 800)
 
-    url = "https://www.autotrader.ca/cars/mazda/cx-5/bc/vancouver/?rcp=15&rcs=0&yRng=2013%2C2017"
-    driver.get(url)
+def main():
+    logging.info(
+        "🚗 Starting full daily pipeline: scrape → clean → load → flag delisted")
 
-    time.sleep(10)  # Let page load fully
+    # Step 1: Scrape listings
+    logging.info("📥 Scraping AutoTrader...")
+    scrape_autotrader_raw()
 
-    listings = driver.find_elements(By.CSS_SELECTOR, "div.result-item")
+    # Step 2: Clean scraped data
+    logging.info("🧹 Cleaning data...")
+    clean_autotrader_data()
 
-    for listing in listings:
-        try:
-            title = listing.find_element(By.CSS_SELECTOR, "h2.title").text
-            price = listing.find_element(
-                By.CSS_SELECTOR, "span.price-amount").text
-            mileage = listing.find_element(
-                By.CSS_SELECTOR, "div.kilometers").text
-            location = listing.find_element(
-                By.CSS_SELECTOR, "div.location").text
-            link = listing.find_element(
-                By.CSS_SELECTOR, "a.result-title").get_attribute("href")
+    # Step 3: Insert/update listings
+    logging.info("💾 Loading into database...")
+    load_clean_data_to_db()
 
-            print({
-                "title": title,
-                "price": price,
-                "mileage": mileage,
-                "location": location,
-                "link": f"https://www.autotrader.ca{link}"
-            })
+    # Step 4: Mark delisted cars
+    logging.info("🧯 Detecting delisted vehicles...")
+    detect_and_flag_delisted_listings()
 
-        except Exception as e:
-            print("Error parsing listing:", e)
+    logging.info("Exporting csv..")
+    daily_snapshot()
 
-    driver.quit()
+    logging.info("✅ Daily scraper run complete.")
 
 
 if __name__ == "__main__":
-    scrape_autotrader()
+    main()

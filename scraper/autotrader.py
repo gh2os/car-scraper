@@ -1,83 +1,69 @@
-from urllib.parse import urlencode
-from playwright.async_api import async_playwright
-from database import insert_or_update_listing
-import asyncio
+from playwright.sync_api import sync_playwright
+import json
+import os
 
 
-def build_autotrader_url(make, model, year_from, year_to, location="vancouver", province="British Columbia"):
-    base_url = f"https://www.autotrader.ca/cars/{make.lower()}/{model.lower()}/bc/{location}/"
-    query_params = {
-        "rcp": "15",
-        "rcs": "0",
-        "srt": "35",
-        "yRng": f"{year_from},{year_to}",
-        "oRng": ",160000",
-        "prx": "100",
-        "prv": province,
-        "loc": location,
-        "hprc": "True",
-        "wcp": "True",
-        "sts": "New-Used",
-        "inMarket": "advancedSearch"
-    }
-    return f"{base_url}?{urlencode(query_params)}"
+def scrape_autotrader_raw(output_path="output/autotrader_raw.json"):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--disable-infobars",
+                "--window-size=1200,800"
+            ]
+        )
 
+        context = browser.new_context(
+            viewport={"width": 1200, "height": 800},
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
 
-async def scrape_autotrader():
-    search_params = [
-        {"make": "Mazda", "model": "CX-5", "year_from": 2013, "year_to": 2015},
-        {"make": "Toyota", "model": "RAV4", "year_from": 2013, "year_to": 2015},
-        {"make": "Honda", "model": "CR-V", "year_from": 2013, "year_to": 2015},
-    ]
+        page = context.new_page()
 
-    listings = []
+        url = "https://www.autotrader.ca/cars/mazda/cx-5/bc/vancouver/?rcp=100&rcs=0&srt=12&yRng=2013%2C2017&prx=500&prv=British%20Columbia&loc=Vancouver%2C%20BC&hprc=True&wcp=True&inMarket=advancedSearch"
+        print("Navigating to:", url)
 
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
+        try:
+            page.goto(url, timeout=30000, wait_until="domcontentloaded")
+            page.wait_for_timeout(5000)
+        except Exception as e:
+            print("Page load failed or was blocked:", e)
+            page.screenshot(path="autotrader_debug.png")
+            browser.close()
+            return []
 
-        for params in search_params:
-            url = build_autotrader_url(
-                params["make"], params["model"], params["year_from"], params["year_to"])
-            print(f"Visiting: {url}")
-            await page.goto(url)
-            try:
-                await page.wait_for_selector("div.listing", timeout=10000)
-            except TimeoutError:
-                print("Timeout: No listings found on the page.")
-                continue
+        listings = page.query_selector_all("div.result-item-inner")
+        raw_listings = []
 
-            result_items = await page.query_selector_all("div.listing")
+        for idx, listing in enumerate(listings):
+            title = listing.query_selector(".h2-title .title-with-trim")
+            price = listing.query_selector(".price-amount")
+            mileage = listing.query_selector(".odometer-proximity")
+            location = listing.query_selector(
+                ".proximity-text.overflow-ellipsis")
+            link_elem = listing.query_selector(".inner-link")
+            outer = listing.evaluate_handle("node => node.parentElement")
+            external_id = outer.get_attribute("data-adid") if outer else None
 
-            for listing in result_items:
-                title_el = await listing.query_selector("h2.title")
-                price_el = await listing.query_selector("span.price-amount")
-                mileage_el = await listing.query_selector("div.kilometers")
-                location_el = await listing.query_selector("div.location")
-                link_el = await listing.query_selector("a[href^='/go/']")
+            data = {
+                "source": "autotrader",
+                "external_id": external_id,
+                "title": title.inner_text().strip() if title else None,
+                "price": price.inner_text().strip() if price else None,
+                "mileage": mileage.inner_text().strip() if mileage else None,
+                "location": location.inner_text().strip() if location else None,
+                "link": "https://www.autotrader.ca" + link_elem.get_attribute("href") if link_elem else None
+            }
 
-                title = await title_el.inner_text() if title_el else None
-                price = await price_el.inner_text() if price_el else None
-                mileage = await mileage_el.inner_text() if mileage_el else None
-                location = await location_el.inner_text() if location_el else None
-                link = await link_el.get_attribute('href') if link_el else None
+            raw_listings.append(data)
 
-                if not link:
-                    continue
+        browser.close()
 
-                listing_data = {
-                    "title": title,
-                    "price": int(price.replace('$', '').replace(',', '')) if price else None,
-                    "mileage": int(mileage.replace(' km', '').replace(',', '')) if mileage else None,
-                    "location": location,
-                    "link": f"https://www.autotrader.ca{link}",
-                    "external_id": link.split('/')[-1],
-                    "source": "AutoTrader"
-                }
+        # Save to JSON
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, "w") as f:
+            json.dump(raw_listings, f, indent=2)
 
-                insert_or_update_listing(listing_data)
-                listings.append(listing_data)
-
-        await browser.close()
-
-    return listings
+        print(f"Saved {len(raw_listings)} listings to {output_path}")
+        return raw_listings
