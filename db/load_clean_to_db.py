@@ -60,7 +60,7 @@ def load_clean_data_to_db(input_path=None, timestamp=None):
                 logging.warning(
                     f"[#{idx}] Skipping listing with bad link: {listing.get('link')} ({e})"
                 )
-                skipped += 1
+                skipped_count += 1
                 continue
 
         try:

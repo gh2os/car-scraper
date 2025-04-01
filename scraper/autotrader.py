@@ -9,6 +9,7 @@ def scrape_autotrader_raw(output_dir="output", timestamp=None):
     if timestamp is None:
         timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     output_filename = f"autotrader_raw_{timestamp}.json"
+    output_path = os.path.join(output_dir, output_filename)
     logging.info(f"Output path: {output_path}")
     output_path = os.path.join(output_dir, output_filename)
 
