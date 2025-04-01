@@ -5,7 +5,10 @@ DB_PATH = "data/listings.db"
 THRESHOLD_DAYS = 7
 
 
-def detect_and_flag_delisted_listings():
+def detect_and_flag_delisted_listings(timestamp=None):
+    if timestamp is None:
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    logging.info(f"Delisting process started at {timestamp}")
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 

@@ -1,8 +1,16 @@
 import json
 import os
+import logging
+from datetime import datetime
 
 
-def clean_autotrader_data(input_path="output/autotrader_raw.json", output_path="output/autotrader_clean.json"):
+def clean_autotrader_data(input_path=None, output_path=None, timestamp=None):
+    if timestamp is None:
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    if input_path is None:
+        input_path = f"output/autotrader_raw_{timestamp}.json"
+    if output_path is None:
+        output_path = f"output/autotrader_clean_{timestamp}.json"
     with open(input_path, "r") as f:
         raw_listings = json.load(f)
 
@@ -20,6 +28,7 @@ def clean_autotrader_data(input_path="output/autotrader_raw.json", output_path="
         except:
             mileage = None
 
+        listing["scraped_at"] = datetime.utcnow().isoformat()
         cleaned.append({
             "source": listing["source"],
             "external_id": listing["external_id"],
@@ -35,4 +44,5 @@ def clean_autotrader_data(input_path="output/autotrader_raw.json", output_path="
         json.dump(cleaned, f, indent=2)
 
     print(f"Cleaned {len(cleaned)} listings and saved to {output_path}")
+    logging.info(f"Output path: {output_path}")
     return cleaned

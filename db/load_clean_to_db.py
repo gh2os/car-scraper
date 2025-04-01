@@ -1,6 +1,7 @@
 import json
 import logging
 from datetime import datetime
+import logging
 from db.database import init_db, insert_or_update_listing
 
 # Configure logging
@@ -28,7 +29,11 @@ def update_days_on_market(conn):
     logging.info("🕒 Updated days_on_market for all listings")
 
 
-def load_clean_data_to_db(input_path="output/autotrader_clean.json"):
+def load_clean_data_to_db(input_path=None, timestamp=None):
+    if timestamp is None:
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    if input_path is None:
+        input_path = f"output/autotrader_clean_{timestamp}.json"
     logging.info("💡 Starting database load process")
     conn = init_db()
     logging.info("Connected to SQLite database")

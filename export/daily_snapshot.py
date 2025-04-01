@@ -4,14 +4,16 @@ from datetime import datetime
 from pathlib import Path
 
 
-def daily_snapshot(db_path="data/listings.db", export_dir="output/snapshots"):
+def daily_snapshot(db_path="data/listings.db", export_dir="output/snapshots", timestamp=None):
+    if timestamp is None:
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
     Path(export_dir).mkdir(parents=True, exist_ok=True)
 
     now = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
-    filename = f"{export_dir}/listings_{now}.csv"
+    filename = f"{export_dir}/autotrader_snapshot_{timestamp}.csv"
 
     cursor.execute("""
         SELECT 

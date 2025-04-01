@@ -2,11 +2,14 @@ from playwright.sync_api import sync_playwright
 import json
 import os
 from datetime import datetime
+import logging
 
 
-def scrape_autotrader_raw(output_dir="output"):
-    timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+def scrape_autotrader_raw(output_dir="output", timestamp=None):
+    if timestamp is None:
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     output_filename = f"autotrader_raw_{timestamp}.json"
+    logging.info(f"Output path: {output_path}")
     output_path = os.path.join(output_dir, output_filename)
 
     with sync_playwright() as p:
