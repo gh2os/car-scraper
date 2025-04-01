@@ -9,13 +9,19 @@ import re
 from datetime import datetime
 
 
-def clean_autotrader_data(input_path="output/autotrader_raw.json", output_path="output/autotrader_clean.json"):
+def clean_autotrader_data(input_path=None, output_path=None, timestamp=None):
+    if timestamp is None:
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    if input_path is None:
+        input_path = f"output/autotrader_raw_{timestamp}.json"
+    if output_path is None:
+        output_path = f"output/autotrader_clean_{timestamp}.json"
     with open(input_path, "r") as f:
         raw_listings = json.load(f)
 
     seen_links = set()
     cleaned = []
-    scraped_at = datetime.utcnow().isoformat()
+    scraped_at = timestamp
 
     for listing in raw_listings:
         link = listing.get("link")
