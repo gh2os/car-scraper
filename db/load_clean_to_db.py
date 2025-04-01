@@ -1,7 +1,7 @@
 import json
 import logging
 from datetime import datetime
-from database import init_db, insert_or_update_listing
+from db.database import init_db, insert_or_update_listing
 
 # Configure logging
 logging.basicConfig(
