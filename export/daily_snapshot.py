@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-def daily_snapshot(db_path="data/listings.db", export_dir="output/snapshots", timestamp=None):
+def daily_snapshot(db_path="data/listingsnew.db", export_dir="output/snapshots", timestamp=None):
     if timestamp is None:
         timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     conn = sqlite3.connect(db_path)
@@ -12,15 +12,29 @@ def daily_snapshot(db_path="data/listings.db", export_dir="output/snapshots", ti
 
     Path(export_dir).mkdir(parents=True, exist_ok=True)
 
-    now = datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
     filename = f"{export_dir}/autotrader_snapshot_{timestamp}.csv"
 
     cursor.execute("""
         SELECT 
-            source, external_id, title, price, mileage, location, link,
-            first_seen, last_seen, days_on_market, is_delisted
-        FROM listings
-        ORDER BY price ASC
+            l.source,
+            l.external_id,
+            l.title,
+            s.price,
+            s.mileage,
+            l.location,
+            l.link,
+            l.first_seen,
+            l.last_seen,
+            ROUND(julianday(l.last_seen) - julianday(l.first_seen), 3) AS days_on_market,
+            l.is_delisted
+        FROM listings l
+        JOIN listing_snapshots s ON s.id = (
+            SELECT id FROM listing_snapshots
+            WHERE listing_id = l.id
+            ORDER BY scraped_at DESC
+            LIMIT 1
+        )
+        ORDER BY s.price ASC
     """)
 
     rows = cursor.fetchall()
