@@ -23,10 +23,13 @@ def insert_or_update_listing(conn, listing):
         SELECT id, price FROM listings WHERE source = ? AND external_id = ?
     ''', (listing['source'], listing['external_id']))
     result = cursor.fetchone()
+    if result:
+        logging.debug(f"Existing listing found: {result}")
 
     if result:
         listing_id, old_price = result
 
+        logging.debug(f"Incoming listing: {listing}")
         # Price change? → log to price_history
         if listing['price'] is not None and old_price != listing['price']:
             cursor.execute('''
@@ -52,6 +55,7 @@ def insert_or_update_listing(conn, listing):
             listing_id
         ))
     else:
+        logging.debug(f"No existing listing found for: {listing['external_id']}")
         # Insert new listing
         cursor.execute('''
             INSERT INTO listings (
