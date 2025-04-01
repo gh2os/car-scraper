@@ -1,9 +1,14 @@
 from playwright.sync_api import sync_playwright
 import json
 import os
+from datetime import datetime
 
 
-def scrape_autotrader_raw(output_path="output/autotrader_raw.json"):
+def scrape_autotrader_raw(output_dir="output"):
+    timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    output_filename = f"autotrader_raw_{timestamp}.json"
+    output_path = os.path.join(output_dir, output_filename)
+
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -60,11 +65,10 @@ def scrape_autotrader_raw(output_path="output/autotrader_raw.json"):
 
         browser.close()
 
-        # Save to JSON
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        os.makedirs(output_dir, exist_ok=True)
         with open(output_path, "w") as f:
             json.dump(raw_listings, f, indent=2)
 
-        print(f"Scraped {len(raw_listings)} listings from AutoTrader")
-        print(f"Saved {len(raw_listings)} listings to {output_path}")
+        print(f"🕵️‍♂️ Scraped {len(raw_listings)} listings from AutoTrader")
+        print(f"💾 Saved to {output_path}")
         return raw_listings
