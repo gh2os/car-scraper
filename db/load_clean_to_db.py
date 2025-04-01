@@ -42,8 +42,8 @@ def load_clean_data_to_db(input_path="output/autotrader_clean.json"):
 
     logging.info(f"Loaded {len(listings)} listings from {input_path}")
 
-    inserted = 0
-    skipped = 0
+    inserted_count = 0
+    skipped_count = 0
 
     for idx, listing in enumerate(listings, start=1):
         if not listing.get("external_id"):
@@ -59,15 +59,16 @@ def load_clean_data_to_db(input_path="output/autotrader_clean.json"):
                 continue
 
         try:
-            if insert_or_update_listing(conn, listing):
-                inserted += 1
-                logging.info(
-                    f"[#{idx}] Upserted: {listing['title']} | {listing['external_id']}"
-                )
-            else:
-                logging.warning(
-                    f"[#{idx}] Duplicate or failed insert: {listing['title']} | {listing['external_id']}"
-                )
+            result = insert_or_update_listing(conn, listing)
+            if result == "inserted":
+                inserted_count += 1
+                logging.info(f"[#{idx}] Inserted: {listing['title']} | {listing['external_id']}")
+            elif result == "updated_with_price_change":
+                inserted_count += 1
+                logging.info(f"[#{idx}] Updated (price changed): {listing['title']} | {listing['external_id']}")
+            elif result == "updated":
+                skipped_count += 1
+                logging.info(f"[#{idx}] Skipped (no price change): {listing['title']} | {listing['external_id']}")
         except Exception as e:
             logging.error(f"[#{idx}] DB insert/update failed: {e}")
             skipped += 1
@@ -77,8 +78,8 @@ def load_clean_data_to_db(input_path="output/autotrader_clean.json"):
 
     conn.commit()
     conn.close()
-    logging.info(
-        f"✅ Done: {inserted} listings inserted/updated, {skipped} skipped.")
+    logging.info(f"✅ Done: {inserted_count} listings inserted/updated, {skipped_count} skipped.")
+    return inserted_count, skipped_count
 
 
 if __name__ == "__main__":
