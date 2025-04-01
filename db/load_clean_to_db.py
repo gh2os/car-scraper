@@ -76,7 +76,7 @@ def load_clean_data_to_db(input_path=None, timestamp=None):
                 logging.info(f"[#{idx}] Skipped (no price change): {listing['title']} | {listing['external_id']}")
         except Exception as e:
             logging.error(f"[#{idx}] DB insert/update failed: {e}")
-            skipped += 1
+            skipped_count += 1
 
     # ✅ Update time-on-market after all inserts
     update_days_on_market(conn)
