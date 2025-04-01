@@ -59,11 +59,15 @@ def load_clean_data_to_db(input_path="output/autotrader_clean.json"):
                 continue
 
         try:
-            insert_or_update_listing(conn, listing)
-            inserted += 1
-            logging.info(
-                f"[#{idx}] Upserted: {listing['title']} | {listing['external_id']}"
-            )
+            if insert_or_update_listing(conn, listing):
+                inserted += 1
+                logging.info(
+                    f"[#{idx}] Upserted: {listing['title']} | {listing['external_id']}"
+                )
+            else:
+                logging.warning(
+                    f"[#{idx}] Duplicate or failed insert: {listing['title']} | {listing['external_id']}"
+                )
         except Exception as e:
             logging.error(f"[#{idx}] DB insert/update failed: {e}")
             skipped += 1

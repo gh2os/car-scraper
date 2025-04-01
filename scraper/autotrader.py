@@ -65,5 +65,6 @@ def scrape_autotrader_raw(output_path="output/autotrader_raw.json"):
         with open(output_path, "w") as f:
             json.dump(raw_listings, f, indent=2)
 
+        print(f"Scraped {len(raw_listings)} listings from AutoTrader")
         print(f"Saved {len(raw_listings)} listings to {output_path}")
         return raw_listings
