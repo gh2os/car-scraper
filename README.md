@@ -1,12 +1,6 @@
 # Car Listings Scraper
 
-This project is a web scraper for used car listings from AutoTrader.ca, CarGurus.ca, and Facebook Marketplace. It collects data on specific car models and stores it in an SQLite database.
-
-## Supported Platforms
-
-- macOS
-- Linux
-- Windows
+This project is a web scraper for used car listings from AutoTrader.ca. It collects data on specific car models and stores it in an SQLite database.
 
 ## Setup Instructions
 

@@ -27,7 +27,7 @@ jobs:
         run: python -m playwright install chromium
 
       - name: Run full scraper pipeline
-        run: python app.py
+        run: python main.py
 
       - name: Upload full run log
         uses: actions/upload-artifact@v4
