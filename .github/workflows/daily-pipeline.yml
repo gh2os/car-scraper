@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,6 +30,19 @@ jobs:
 
       - name: Run full scraper pipeline
         run: python main.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add output/  # Change to the path(s) your script writes to
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: daily scraper update - $(date -u +'%Y-%m-%d')"
+            git push
+          fi
 
       - name: Upload full run log
         uses: actions/upload-artifact@v4
