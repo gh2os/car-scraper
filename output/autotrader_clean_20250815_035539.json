@@ -1,0 +1,1582 @@
+[
+  {
+    "source": "autotrader",
+    "external_id": "67377370",
+    "title": "2016 Mazda CX-5 GT",
+    "price": 23888,
+    "mileage": 89538,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/surrey/british%20columbia/5_67377370_20241213202713863/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66860403",
+    "title": "2015 Mazda CX-5 GS",
+    "price": 15988,
+    "mileage": 142219,
+    "location": "ABBOTSFORD",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/abbotsford/british%20columbia/5_66860403_20231115153126485/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2016 Mazda CX-5 GX 4D Utility FWD 6sp",
+    "price": 15999,
+    "mileage": 160000,
+    "location": "SQUAMISH",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/squamish/british%20columbia/19_13132521_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67422578",
+    "title": "2013 Mazda CX-5 GT LEATHER / BACK UP CAMERA!!",
+    "price": 14999,
+    "mileage": 177215,
+    "location": "NANAIMO",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/nanaimo/british%20columbia/5_67422578_ct200422311759257/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67625159",
+    "title": "2016 Mazda CX-5",
+    "price": 22995,
+    "mileage": 43500,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/north%20vancouver/british%20columbia/5_67625159_20190108113849226/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67477707",
+    "title": "2015 Mazda CX-5 AWD 4dr Auto GS - One Owner / Backup Camera / BSM",
+    "price": 19998,
+    "mileage": 79894,
+    "location": "PENTICTON",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/penticton/british%20columbia/5_67477707_ct2004326103829817/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67005446",
+    "title": "2013 Mazda CX-5 AWD 4dr Auto GS | Low KM's!! | Touchscreen | Rear",
+    "price": 17777,
+    "mileage": 96879,
+    "location": "KELOWNA",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/kelowna/british%20columbia/5_67005446_20240930190045714/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67381658",
+    "title": "2016 Mazda CX-5 GS-Backup Camera | Heated Seats | Sunroof",
+    "price": 19995,
+    "mileage": 100250,
+    "location": "BURNABY",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/burnaby/british%20columbia/5_67381658_20231114185904344/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67471291",
+    "title": "2016 Mazda CX-5 GT AWD at LOW KMS|FULLY LOADED|ONE OWNER",
+    "price": 21495,
+    "mileage": 112320,
+    "location": "PORT MOODY",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/port%20moody/british%20columbia/5_67471291_20080829111146687/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67134066",
+    "title": "2016 Mazda CX-5 GT",
+    "price": 21988,
+    "mileage": 117196,
+    "location": "ABBOTSFORD",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/abbotsford/british%20columbia/5_67134066_20231115153126485/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67486986",
+    "title": "2016 Mazda CX-5 GT AWD at (2) LOW KMS|MAZDA RADAR CRUZE|LDW",
+    "price": 20896,
+    "mileage": 129545,
+    "location": "PORT MOODY",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/port%20moody/british%20columbia/5_67486986_20080829111146687/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67456567",
+    "title": "2016 Mazda CX-5 Grand Touring AWD - Rain-Sensing Wipers",
+    "price": 19800,
+    "mileage": 131953,
+    "location": "MAPLE RIDGE",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/maple%20ridge/british%20columbia/5_67456567_bs200422611523/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2016 Mazda CX-5 AWD 4dr Auto GT",
+    "price": 20050,
+    "mileage": 139000,
+    "location": "KELOWNA",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/kelowna/british%20columbia/19_13166741_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67422653",
+    "title": "2016 Mazda CX-5 GX FWD | No Accidents | One Owner | Rear Cam",
+    "price": 17997,
+    "mileage": 141855,
+    "location": "KELOWNA",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/kelowna/british%20columbia/5_67422653_20240930190045714/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67526998",
+    "title": "2017 Mazda CX-5 GS",
+    "price": 19980,
+    "mileage": 147497,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/surrey/british%20columbia/5_67526998_bs200622195818/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67031156",
+    "title": "2016 Mazda CX-5 Touring AWD TOURING",
+    "price": 17900,
+    "mileage": 164799,
+    "location": "WILLIAMS LAKE",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/williams%20lake/british%20columbia/5_67031156_ct20041816288144/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67611281",
+    "title": "2016 Mazda CX-5 GS",
+    "price": 15995,
+    "mileage": 174031,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/vancouver/british%20columbia/5_67611281_20190507144757045/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66939719",
+    "title": "2014 Mazda CX-5 CX",
+    "price": 12950,
+    "mileage": 186000,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/new%20westminster/british%20columbia/5_66939719_20250616174827937/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66538470",
+    "title": "2013 Mazda CX-5 AWD 4dr Auto GT",
+    "price": 12495,
+    "mileage": 186917,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/north%20vancouver/british%20columbia/5_66538470_20220214145504136/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67384058",
+    "title": "2013 Mazda CX-5 GX-Bluetooth | Navigation | USB Port",
+    "price": 11495,
+    "mileage": 188800,
+    "location": "BURNABY",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/burnaby/british%20columbia/5_67384058_20231114185904344/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2013 Mazda CX-5 AWD 4dr Auto GT",
+    "price": 12000,
+    "mileage": 189419,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/north%20vancouver/british%20columbia/19_13158966_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67149243",
+    "title": "2014 Mazda CX-5 Grand Touring AWD | No Accident | FREE Driver's Sh",
+    "price": 14890,
+    "mileage": 197092,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/coquitlam/british%20columbia/5_67149243_20191204192538227/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2013 Mazda CX-5 AWD 4dr Auto GS",
+    "price": 10500,
+    "mileage": 217450,
+    "location": "WEST VANCOUVER",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/west%20vancouver/british%20columbia/19_13136308_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67580853",
+    "title": "2014 Mazda CX-5 GT AWD / LEATHER / SUNROOF!!",
+    "price": 13999,
+    "mileage": 230851,
+    "location": "NANAIMO",
+    "link": "https://www.autotrader.ca/a/mazda/cx-5/nanaimo/british%20columbia/5_67580853_ct200422311759257/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67305778",
+    "title": "2014 Honda CR-V EX-L NAV NO (0) ACCIDENTS, LEATHER, BLUETOOTH",
+    "price": 21495,
+    "mileage": 122916,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vancouver/british%20columbia/5_67305778_bs2004817114925/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67525865",
+    "title": "2017 Honda CR-V EX AWD ACCIDENT FREE | LOW KMS | SUNROOF | HONDA S",
+    "price": 24888,
+    "mileage": 128798,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vancouver/british%20columbia/5_67525865_20111205152027860/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66713979",
+    "title": "2014 Honda CR-V EX AWD 2014 Honda CR-V EX AWD \u2013 Versatility and Co",
+    "price": 17789,
+    "mileage": 131649,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_66713979_bs200697155619/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67405126",
+    "title": "2015 Honda CR-V EX | Bluetooth | Heated Front Seats | Cloth",
+    "price": 17995,
+    "mileage": 159935,
+    "location": "RICHMOND",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/richmond/british%20columbia/5_67405126_bs200551011450/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67366725",
+    "title": "2015 Honda CR-V AWD 5dr LX | No Reported Accidents!",
+    "price": 14895,
+    "mileage": 191410,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/5_67366725_20140304153549160/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67590047",
+    "title": "2010 Honda CR-V EX",
+    "price": 11899,
+    "mileage": 199685,
+    "location": "COURTENAY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/courtenay/british%20columbia/5_67590047_ct200651010141429/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66978355",
+    "title": "2013 Honda CR-V LX AWD FREE Service! FREE Warranty!!",
+    "price": 12980,
+    "mileage": 204340,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vancouver/british%20columbia/5_66978355_20170130165445534/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2015 Honda CR-V AWD 5dr EX-L",
+    "price": 16300,
+    "mileage": 269000,
+    "location": "SQUAMISH",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/squamish/british%20columbia/19_13158759_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2015 Honda CR-V AWD 5dr SE",
+    "price": 21999,
+    "mileage": 76000,
+    "location": "WEST VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/west%20vancouver/british%20columbia/19_13116721_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67622484",
+    "title": "2018 Honda CR-V EX-L AWD",
+    "price": 22850,
+    "mileage": 76000,
+    "location": "LANGLEY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/langley/british%20columbia/5_67622484_20161117200030468/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67557379",
+    "title": "2018 Honda CR-V EX-L AWD",
+    "price": 22800,
+    "mileage": 78000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_67557379_20121214162929169/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67463521",
+    "title": "2009 Honda CR-V 4WD EX",
+    "price": 18888,
+    "mileage": 85566,
+    "location": "KELOWNA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/kelowna/british%20columbia/5_67463521_20250424165430156/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67466291",
+    "title": "2016 Honda CR-V AWD EX-L/ CLEAN TITLE/ POWER SUNROOF/ BACKUP CAMER",
+    "price": 21995,
+    "mileage": 93156,
+    "location": "RICHMOND",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/richmond/british%20columbia/5_67466291_20180116182834554/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67556797",
+    "title": "2016 Honda CR-V EX BACKUP CAMERA!",
+    "price": 23995,
+    "mileage": 96710,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/5_67556797_20250731185919502/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67300428",
+    "title": "2015 Honda CR-V AWD | EX-L | One Owner | Clean History",
+    "price": 22490,
+    "mileage": 96998,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/5_67300428_20160815145025037/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67418853",
+    "title": "2015 Honda CR-V EX",
+    "price": 21980,
+    "mileage": 97198,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_67418853_20190415145109816/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67607918",
+    "title": "2016 Honda CR-V AWD 5dr EX-L",
+    "price": 22900,
+    "mileage": 97518,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/coquitlam/british%20columbia/5_67607918_20180426122750351/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67549115",
+    "title": "2014 Honda CR-V LX",
+    "price": 18500,
+    "mileage": 97837,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/5_67549115_20201126185304300/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "65994706",
+    "title": "2017 Honda CR-V AWD 5dr LX",
+    "price": 21888,
+    "mileage": 106012,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vancouver/british%20columbia/5_65994706_20231101131206733/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67600920",
+    "title": "2011 Honda CR-V",
+    "price": 17085,
+    "mileage": 110905,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/5_67600920_ct20044511046681/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67242322",
+    "title": "2019 Honda CR-V LX",
+    "price": 24995,
+    "mileage": 111600,
+    "location": "NELSON",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/nelson/british%20columbia/5_67242322_20200501034956846/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2016 Honda CR-V AWD 5dr Touring",
+    "price": 23800,
+    "mileage": 112941,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vancouver/british%20columbia/19_13143254_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67513922",
+    "title": "2010 Honda CR-V 4WD EXL! FULLY LOADED! ONE OWNER! LOW KMS",
+    "price": 15485,
+    "mileage": 115343,
+    "location": "PORT COQUITLAM",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/port%20coquitlam/british%20columbia/5_67513922_bs20044895840/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67415538",
+    "title": "2011 Honda CR-V 4WD 5dr EX-L",
+    "price": 15936,
+    "mileage": 116000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_67415538_20250513191013821/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66965239",
+    "title": "2017 Honda CR-V Touring",
+    "price": 24795,
+    "mileage": 118100,
+    "location": "PENTICTON",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/penticton/british%20columbia/5_66965239_ct200581991622533/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67495590",
+    "title": "2015 Honda CR-V EX AWD / SUNROOF / BACK UP CAMERA!!",
+    "price": 20999,
+    "mileage": 122880,
+    "location": "NANAIMO",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/nanaimo/british%20columbia/5_67495590_ct200422311759257/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67576392",
+    "title": "2015 Honda CR-V EX AWD |Low KM! Great Condition!",
+    "price": 17990,
+    "mileage": 123450,
+    "location": "RICHMOND",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/richmond/british%20columbia/5_67576392_bs200632210576/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67580007",
+    "title": "2012 Honda CR-V AWD 5dr LX",
+    "price": 14936,
+    "mileage": 126000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_67580007_20250513191013821/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2017 Honda CR-V AWD 5dr LX",
+    "price": 20800,
+    "mileage": 132000,
+    "location": "DELTA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/delta/british%20columbia/19_13152258_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67375261",
+    "title": "2013 Honda CR-V AWD Low Km, 4 Cyl. Engine LX",
+    "price": 18995,
+    "mileage": 134611,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/new%20westminster/british%20columbia/5_67375261_20140403092404073/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67590246",
+    "title": "2012 Honda CR-V Local Owned BC Trade-In | Dealer serviced",
+    "price": 16700,
+    "mileage": 136144,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_67590246_20200818190739796/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67524484",
+    "title": "2017 Honda CR-V Ex-L",
+    "price": 24995,
+    "mileage": 138114,
+    "location": "PENTICTON",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/penticton/british%20columbia/5_67524484_20250731150644790/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66425117",
+    "title": "2013 Honda CR-V LX AWD w / Backup Camera & Heated Seats",
+    "price": 16999,
+    "mileage": 140190,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_66425117_bs20041025112044/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67494033",
+    "title": "2013 Honda CR-V AWD 5dr LX",
+    "price": 17900,
+    "mileage": 140297,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/coquitlam/british%20columbia/5_67494033_20180426122750351/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67522137",
+    "title": "2017 Honda CR-V EX-L AWD WOW LOW MILEAGE NO ACCIDENTS CR-V HONDA S",
+    "price": 22494,
+    "mileage": 140900,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/north%20vancouver/british%20columbia/5_67522137_bs20051129101427/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67202975",
+    "title": "2017 Honda CR-V EX-L AWD",
+    "price": 22295,
+    "mileage": 141072,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/5_67202975_ct20041026145235706/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66508799",
+    "title": "2011 Honda CR-V 4WD 5dr EX",
+    "price": 15900,
+    "mileage": 144021,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/coquitlam/british%20columbia/5_66508799_20180426122750351/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67104213",
+    "title": "2014 Honda CR-V EX-L;",
+    "price": 16997,
+    "mileage": 152060,
+    "location": "LANGLEY CITY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/langley%20city/british%20columbia/5_67104213_20200715134228750/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67484975",
+    "title": "2005 Honda CR-V 4WD EX Auto | Island Vehicle | Clean Records |",
+    "price": 13585,
+    "mileage": 153889,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/5_67484975_ct20044511046681/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67350077",
+    "title": "2015 Honda CR-V AWD 5dr EX-L",
+    "price": 20590,
+    "mileage": 158477,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/5_67350077_bs200541292544/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "63374465",
+    "title": "2014 Honda CR-V AWD 5dr EX",
+    "price": 16500,
+    "mileage": 159259,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/north%20vancouver/british%20columbia/5_63374465_20220214145504136/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "65871130",
+    "title": "2007 Honda CR-V EX-L 4WD AT w/ Navigation INSPECTED W/BCAA MBRSHP",
+    "price": 12995,
+    "mileage": 160344,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_65871130_bs200461513833/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67375252",
+    "title": "2016 Honda CR-V AWD 5dr EX",
+    "price": 18900,
+    "mileage": 163000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_67375252_20250331172904051/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67462194",
+    "title": "2016 Honda CR-V AWD 5dr Touring | Rearview Cam | Power Tailgate |",
+    "price": 20997,
+    "mileage": 163832,
+    "location": "KELOWNA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/kelowna/british%20columbia/5_67462194_20240930190045714/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66993824",
+    "title": "2013 Honda CR-V EX-L - BC LOCAL / LEATHER",
+    "price": 17888,
+    "mileage": 164500,
+    "location": "RICHMOND",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/richmond/british%20columbia/5_66993824_bs200510199162/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "63205759",
+    "title": "2012 Honda CR-V AWD, Touring, Warranty Included!",
+    "price": 16995,
+    "mileage": 165939,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/new%20westminster/british%20columbia/5_63205759_20140403092404073/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67614202",
+    "title": "2018 Honda CR-V EX-L AWD 2018 Honda CR-V \u2014 comfort, style, and con",
+    "price": 22995,
+    "mileage": 170859,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/5_67614202_bs200697155619/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67099904",
+    "title": "2018 Honda CR-V EX-L",
+    "price": 21888,
+    "mileage": 178949,
+    "location": "VERNON",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vernon/british%20columbia/5_67099904_20220412160422922/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66605544",
+    "title": "2019 Honda CR-V LX - No Accidents, Heated Seats, AWD",
+    "price": 24995,
+    "mileage": 179782,
+    "location": "NANAIMO",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/nanaimo/british%20columbia/5_66605544_20120802110101668/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67090199",
+    "title": "2019 Honda CR-V LX AWD - One owner - Local - Heated Seats",
+    "price": 17943,
+    "mileage": 180000,
+    "location": "VERNON",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vernon/british%20columbia/5_67090199_20140513184345132/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2016 Honda CR-V AWD 5dr EX-L",
+    "price": 18995,
+    "mileage": 182000,
+    "location": "CAMPBELL RIVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/campbell%20river/british%20columbia/19_13153737_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2016 Honda CR-V AWD 5dr Touring",
+    "price": 21000,
+    "mileage": 182121,
+    "location": "COURTENAY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/courtenay/british%20columbia/19_13145369_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67421994",
+    "title": "2023 Honda CR-V LX 4WD",
+    "price": 24990,
+    "mileage": 184069,
+    "location": "ABBOTSFORD",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/abbotsford/british%20columbia/5_67421994_20200825152222821/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67524503",
+    "title": "2015 Honda CR-V EX | Heated Seats | Power Mooonroof | Bluetooth",
+    "price": 16995,
+    "mileage": 185507,
+    "location": "KELOWNA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/kelowna/british%20columbia/5_67524503_20250801160404173/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67481353",
+    "title": "2010 Honda CR-V LX 4dr SUV AWD (2.4L 4cyl 5A)",
+    "price": 11999,
+    "mileage": 191236,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/coquitlam/british%20columbia/5_67481353_20250730173238261/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "61368376",
+    "title": "2016 Honda CR-V AWD SE FINANCING AVAILABLE!",
+    "price": 17995,
+    "mileage": 200723,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/new%20westminster/british%20columbia/5_61368376_20140403092404073/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "65112277",
+    "title": "2016 Honda CR-V SE | No Reported Accidents!",
+    "price": 15269,
+    "mileage": 205007,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/5_65112277_20140304153549160/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67193450",
+    "title": "2017 Honda CR-V Crash Avoidance \u2013 Navigation System",
+    "price": 18998,
+    "mileage": 209565,
+    "location": "COURTENAY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/courtenay/british%20columbia/5_67193450_ct2005323101117290/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2011 Honda CR-V 4WD 5dr EX-L",
+    "price": 9000,
+    "mileage": 231000,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vancouver/british%20columbia/19_13155778_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67167036",
+    "title": "2007 Honda CR-V 4WD 5dr EX-L",
+    "price": 8800,
+    "mileage": 232000,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/new%20westminster/british%20columbia/5_67167036_20250616174827937/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2010 Honda CR-V 4WD 5dr EX",
+    "price": 11000,
+    "mileage": 233000,
+    "location": "NANAIMO",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/nanaimo/british%20columbia/19_13168759_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67357620",
+    "title": "2017 Honda CR-V 4WD Touring / 1 Owner / Well Maintained",
+    "price": 19200,
+    "mileage": 241378,
+    "location": "BURNABY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/burnaby/british%20columbia/5_67357620_bs200541411570/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2010 Honda CR-V 4WD 5dr EX-L",
+    "price": 10000,
+    "mileage": 242000,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vancouver/british%20columbia/19_13137030_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2007 Honda CR-V 4WD 5dr EX",
+    "price": 6700,
+    "mileage": 243000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/19_13165785_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66939687",
+    "title": "2005 Honda CR-V CRV",
+    "price": 6800,
+    "mileage": 245000,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/new%20westminster/british%20columbia/5_66939687_20250616174827937/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2007 Honda CR-V 4WD 5dr EX-L",
+    "price": 7500,
+    "mileage": 257000,
+    "location": "CHILLIWACK",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/chilliwack/british%20columbia/19_13162451_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2008 Honda CR-V 4WD 5dr EX-L",
+    "price": 6800,
+    "mileage": 260000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/19_13136325_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2007 Honda CR-V 4WD 5dr EX",
+    "price": 6650,
+    "mileage": 260000,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/coquitlam/british%20columbia/19_13165202_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "1998 Honda CR-V",
+    "price": 1900,
+    "mileage": 265865,
+    "location": "RICHMOND",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/richmond/british%20columbia/19_13162505_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66939696",
+    "title": "2002 Honda CR-V CRV",
+    "price": 5950,
+    "mileage": 279800,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/new%20westminster/british%20columbia/5_66939696_20250616174827937/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66335864",
+    "title": "1998 Honda CR-V 4WD EX AUTO BC LOCAL",
+    "price": 4800,
+    "mileage": 302944,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vancouver/british%20columbia/5_66335864_20250219164236420/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2007 Honda CR-V 4WD 5dr EX-L",
+    "price": 6900,
+    "mileage": 304000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/surrey/british%20columbia/19_13148450_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2004 Honda CR-V 4WD EX-L Auto",
+    "price": 5000,
+    "mileage": 306000,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/vancouver/british%20columbia/19_13164544_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2004 Honda CR-V 4WD EX Manual",
+    "price": 5000,
+    "mileage": 310000,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/honda/cr-v/victoria/british%20columbia/19_13150736_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67527981",
+    "title": "2018 Toyota RAV4 SE | Midnight Edition | AWD",
+    "price": 21990,
+    "mileage": 210179,
+    "location": "ABBOTSFORD",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/abbotsford/british%20columbia/5_67527981_ct2003101711201706/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67415264",
+    "title": "2015 Toyota RAV4 XLE",
+    "price": 20995,
+    "mileage": 91417,
+    "location": "PITT MEADOWS",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/pitt%20meadows/british%20columbia/5_67415264_bs200446162144/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67328229",
+    "title": "2016 Toyota RAV4 AWD Limited | Local |",
+    "price": 23993,
+    "mileage": 125124,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vancouver/british%20columbia/5_67328229_bs200471610440/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67149979",
+    "title": "2018 Toyota RAV4 LE (Natl)",
+    "price": 18990,
+    "mileage": 127000,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/new%20westminster/british%20columbia/5_67149979_20250501191535993/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66213311",
+    "title": "2018 Toyota RAV4 Hybrid LE+",
+    "price": 24995,
+    "mileage": 137202,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/victoria/british%20columbia/5_66213311_20160216143711007/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67327113",
+    "title": "2015 Toyota RAV4 XLE",
+    "price": 21995,
+    "mileage": 155242,
+    "location": "PITT MEADOWS",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/pitt%20meadows/british%20columbia/5_67327113_bs200446162144/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67560380",
+    "title": "2011 Toyota RAV4 2WD Base 4A 2011 Toyota RAV4 \u2013 Rugged Reliability",
+    "price": 11995,
+    "mileage": 190500,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/surrey/british%20columbia/5_67560380_bs200697155619/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67569480",
+    "title": "2015 Toyota RAV4 Limited",
+    "price": 15999,
+    "mileage": 224355,
+    "location": "COURTENAY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/courtenay/british%20columbia/5_67569480_ct200651010141429/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "65583038",
+    "title": "2002 Toyota RAV4 Auto 4WD [BC LOCAL / DEALER SERVICED]",
+    "price": 6800,
+    "mileage": 260000,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vancouver/british%20columbia/5_65583038_20250219164236420/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67119919",
+    "title": "2014 Toyota RAV4 LE Upgrade Package",
+    "price": 19195,
+    "mileage": 55785,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/north%20vancouver/british%20columbia/5_67119919_bs200591595952/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67570196",
+    "title": "2016 Toyota RAV4 Hybrid Limited",
+    "price": 24888,
+    "mileage": 90124,
+    "location": "VERNON",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vernon/british%20columbia/5_67570196_20220412160422922/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67507110",
+    "title": "2015 Toyota RAV4 Limited AWD! 2.5L 4 Cylinder! Navigation!",
+    "price": 24589,
+    "mileage": 95302,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vancouver/british%20columbia/5_67507110_20140120150723585/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66793219",
+    "title": "2013 Toyota RAV4 LIMITED AWD ALL OPTIONS, FINANCING WARRANTY, INSPE",
+    "price": 18995,
+    "mileage": 167000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/surrey/british%20columbia/5_66793219_bs200461513833/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67287917",
+    "title": "2016 Toyota RAV4 AWD 4dr LE",
+    "price": 18995,
+    "mileage": 97315,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/new%20westminster/british%20columbia/5_67287917_20210222133848843/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67347405",
+    "title": "2006 Toyota RAV4 4dr Auto V6 4WD Limited",
+    "price": 16333,
+    "mileage": 102000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/surrey/british%20columbia/5_67347405_20250513191013821/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66115395",
+    "title": "1997 Toyota RAV4 2 Door",
+    "price": 24980,
+    "mileage": 109900,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/north%20vancouver/british%20columbia/5_66115395_20240314153509808/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67287916",
+    "title": "2015 Toyota RAV4 AWD 4dr LE",
+    "price": 17995,
+    "mileage": 118648,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/new%20westminster/british%20columbia/5_67287916_20210222133848843/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67371904",
+    "title": "2013 Toyota RAV4 AWD Limited",
+    "price": 22998,
+    "mileage": 120000,
+    "location": "SOOKE",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/sooke/british%20columbia/5_67371904_20210419185601546/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67230797",
+    "title": "2006 Toyota RAV4 4dr Auto 4WD Limited",
+    "price": 15000,
+    "mileage": 125739,
+    "location": "RICHMOND",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/richmond/british%20columbia/5_67230797_20220304191347732/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67012422",
+    "title": "2016 Toyota RAV4 Hybrid Hybrid Limited",
+    "price": 23195,
+    "mileage": 129381,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/north%20vancouver/british%20columbia/5_67012422_bs200591595952/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66740164",
+    "title": "2016 Toyota RAV4 LE w / Backup Camera & Heated Seats",
+    "price": 23900,
+    "mileage": 135720,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/surrey/british%20columbia/5_66740164_bs20041025112044/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67480180",
+    "title": "2016 Toyota RAV4 VdpUrlEn",
+    "price": 20800,
+    "mileage": 138594,
+    "location": "VERNON",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vernon/british%20columbia/5_67480180_ct2005329102220302/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67389592",
+    "title": "2006 Toyota RAV4 Limited 4x4 Automatic",
+    "price": 14980,
+    "mileage": 145410,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vancouver/british%20columbia/5_67389592_20240729162641735/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66233334",
+    "title": "2016 Toyota RAV4 Limited AWD | Great drive | Very clean |",
+    "price": 23890,
+    "mileage": 145728,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_66233334_20191204192538227/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67481407",
+    "title": "1997 Toyota RAV4 4dr SUV AWD",
+    "price": 7888,
+    "mileage": 151000,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_67481407_20250730173238261/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66526075",
+    "title": "2015 Toyota RAV4 Limited AWD | Local | No Accident | Low mileage |",
+    "price": 19900,
+    "mileage": 151638,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_66526075_20191204192538227/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67390123",
+    "title": "2018 Toyota RAV4 LE",
+    "price": 21997,
+    "mileage": 153012,
+    "location": "RICHMOND",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/richmond/british%20columbia/5_67390123_bs2005415154738/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66781000",
+    "title": "2017 Toyota RAV4 XLE AWD",
+    "price": 23995,
+    "mileage": 160831,
+    "location": "VERNON",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vernon/british%20columbia/5_66781000_20151204144558647/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67328526",
+    "title": "2015 Toyota RAV4 FWD 4dr LE",
+    "price": 16895,
+    "mileage": 163034,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/north%20vancouver/british%20columbia/5_67328526_20220214145504136/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67513072",
+    "title": "2015 Toyota RAV4 Limited | ONE OWNER | SUNROOF | BACKUP CAMERA",
+    "price": 18995,
+    "mileage": 164663,
+    "location": "KELOWNA",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/kelowna/british%20columbia/5_67513072_20170105223503536/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67636043",
+    "title": "2013 Toyota RAV4",
+    "price": 17999,
+    "mileage": 166208,
+    "location": "COURTENAY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/courtenay/british%20columbia/5_67636043_20170511171901030/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67481372",
+    "title": "2007 Toyota RAV4 Sport 4dr SUV 4WD (3.5L 6cyl 5A)",
+    "price": 9999,
+    "mileage": 168713,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_67481372_20250730173238261/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67230835",
+    "title": "2017 Toyota RAV4 Hybrid 4dr Limited",
+    "price": 23888,
+    "mileage": 169000,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/surrey/british%20columbia/5_67230835_20200911151822752/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67155572",
+    "title": "2017 Toyota RAV4 LE",
+    "price": 17499,
+    "mileage": 169983,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/surrey/british%20columbia/5_67155572_20160317105021292/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66952151",
+    "title": "2013 Toyota RAV4 AWD 4DR XLE",
+    "price": 16800,
+    "mileage": 173000,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vancouver/british%20columbia/5_66952151_20250219164236420/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2016 Toyota RAV4 FWD 4dr LE",
+    "price": 19000,
+    "mileage": 174000,
+    "location": "QUESNEL",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/quesnel/british%20columbia/19_13117494_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67530767",
+    "title": "2016 Toyota RAV4 LE; 2.5 L I4 ENGINE, AUTOMATIC, BLUETOOTH, BACKUP",
+    "price": 19497,
+    "mileage": 175687,
+    "location": "LANGLEY CITY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/langley%20city/british%20columbia/5_67530767_20200715134228750/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67456073",
+    "title": "2014 Toyota RAV4 AWD 4dr Limited | Great Condition",
+    "price": 16480,
+    "mileage": 180398,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vancouver/british%20columbia/5_67456073_bs2006103195533/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66426090",
+    "title": "2016 Toyota RAV4 Hybrid 4dr XLE Hybrid",
+    "price": 24995,
+    "mileage": 180528,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/new%20westminster/british%20columbia/5_66426090_20140403092404073/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67481354",
+    "title": "2008 Toyota RAV4 Base Four-wheel Drive Automatic",
+    "price": 9995,
+    "mileage": 181055,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_67481354_20250730173238261/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66542344",
+    "title": "2018 Toyota RAV4 Hybrid SE",
+    "price": 24995,
+    "mileage": 182418,
+    "location": "VICTORIA",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/victoria/british%20columbia/5_66542344_20201126185304300/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67220830",
+    "title": "2019 Toyota RAV4 AWD LE Local vehicle, no accidents",
+    "price": 24473,
+    "mileage": 186006,
+    "location": "SURREY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/surrey/british%20columbia/5_67220830_20190115192019191/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67433055",
+    "title": "2010 Toyota RAV4 Base",
+    "price": 16900,
+    "mileage": 186417,
+    "location": "VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/vancouver/british%20columbia/5_67433055_20250310152837138/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66859309",
+    "title": "2009 Toyota RAV4 4WD 4dr I4 Limited, New Tires + Snow Tires, Leathe",
+    "price": 15000,
+    "mileage": 189076,
+    "location": "LANGLEY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/langley/british%20columbia/5_66859309_20200325023157057/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67481379",
+    "title": "2003 Toyota RAV4 Base All-wheel Drive Manual",
+    "price": 7995,
+    "mileage": 202521,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_67481379_20250730173238261/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67193795",
+    "title": "2015 Toyota RAV4 AWD 4dr LE",
+    "price": 13995,
+    "mileage": 220800,
+    "location": "RICHMOND",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/richmond/british%20columbia/5_67193795_bs2007530142132/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67529832",
+    "title": "2012 Toyota RAV4 | Great Drive | FREE Driver's Shield Warranty |",
+    "price": 11890,
+    "mileage": 224790,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_67529832_20191204192538227/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67481352",
+    "title": "2003 Toyota RAV4 4dr 4WD",
+    "price": 5988,
+    "mileage": 233000,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_67481352_20250730173238261/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "63678673",
+    "title": "2016 Toyota RAV4 AWD Warranty Included!! Mechanically Inspected!",
+    "price": 18995,
+    "mileage": 237764,
+    "location": "NEW WESTMINSTER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/new%20westminster/british%20columbia/5_63678673_20140403092404073/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67211862",
+    "title": "2007 Toyota RAV4 4WD 4dr I4 Limited",
+    "price": 8995,
+    "mileage": 240000,
+    "location": "RICHMOND",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/richmond/british%20columbia/5_67211862_bs2007530142132/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66064177",
+    "title": "2011 Toyota RAV4 Sport 4WD | FREE Driver's Shield Warranty |",
+    "price": 10890,
+    "mileage": 242255,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_66064177_20191204192538227/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66649407",
+    "title": "2009 Toyota RAV4 4WD 4dr I4 Base",
+    "price": 11800,
+    "mileage": 248248,
+    "location": "NANAIMO",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/nanaimo/british%20columbia/5_66649407_20250507143237660/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2010 Toyota RAV4 2WD 4dr I4 Base",
+    "price": 10000,
+    "mileage": 250000,
+    "location": "CHILLIWACK",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/chilliwack/british%20columbia/19_13157119_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67464729",
+    "title": "2008 Toyota RAV4 Sport",
+    "price": 7990,
+    "mileage": 260000,
+    "location": "BURNABY",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/burnaby/british%20columbia/5_67464729_20240312161704555/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67160600",
+    "title": "2014 Toyota RAV4 AWD 4dr LE",
+    "price": 11500,
+    "mileage": 264965,
+    "location": "NORTH VANCOUVER",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/north%20vancouver/british%20columbia/5_67160600_20220412131109075/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "67481397",
+    "title": "2004 Toyota RAV4 4dr 4WD",
+    "price": 5788,
+    "mileage": 270742,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/5_67481397_20250730173238261/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2010 Toyota RAV4 Base 4D Utility 4WD",
+    "price": 9445,
+    "mileage": 285000,
+    "location": "NELSON",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/nelson/british%20columbia/19_13159869_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": "66434206",
+    "title": "2010 Toyota RAV4 4WD",
+    "price": 7995,
+    "mileage": 293345,
+    "location": "NANAIMO",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/nanaimo/british%20columbia/5_66434206_20230622134714619/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "2001 Toyota RAV4 4dr Auto 4WD",
+    "price": 6500,
+    "mileage": 305800,
+    "location": "COQUITLAM",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/coquitlam/british%20columbia/19_13143642_/",
+    "scraped_at": "20250815_035539"
+  },
+  {
+    "source": "autotrader",
+    "external_id": null,
+    "title": "1998 Toyota RAV4 4dr Auto 4WD",
+    "price": 100,
+    "mileage": 344600,
+    "location": "CHILLIWACK",
+    "link": "https://www.autotrader.ca/a/toyota/rav4/chilliwack/british%20columbia/19_13081429_/",
+    "scraped_at": "20250815_035539"
+  }
+]
